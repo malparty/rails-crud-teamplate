@@ -103,3 +103,5 @@ end
 group :production do
   gem 'rack-timeout' # Rack middleware which aborts requests that have been running for longer than a specified timeout.
 end
+
+gem "devise", "~> 4.9"
